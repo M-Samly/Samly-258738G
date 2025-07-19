@@ -49,7 +49,8 @@ miniproject_258738G/
 ├── run_all.sh                        # Runs entire code
 ├── requirements.txt                  # Python dependencies
 ├── README.md                         # reading it
-
+```
+---
 
 ## Dataset Instructions
 
@@ -93,7 +94,7 @@ Install all required packages using the following command in the terminal:
 ```bash
 pip install mlxtend scikit-learn matplotlib seaborn pandas jupyter notebook
 pip install -r requirements.txt
-
+```
 ---
 
 ## Step 4: Launch Jupyter Notebook
@@ -102,7 +103,7 @@ To launch Jupyter Notebook, run the following command in your terminal:
 
 ```bash
 python -m notebook
-
+```
 ---
 
 ## Execution Options
@@ -111,6 +112,7 @@ python -m notebook
 
 ```bash
 ./run_all.sh
+```
 
 ### Option 2: Run Python Scripts Manually
 
@@ -120,6 +122,7 @@ Make sure your terminal is located at the **project root folder** (e.g., `minipr
 
 ```bash
 python src/association_rules.py
+```
 
 This will generate the file `association_rules_output.csv` inside the `data/` folder.
 
@@ -129,6 +132,8 @@ This will generate the file `association_rules_output.csv` inside the `data/` fo
 
 ```bash
 python src/customer_clustering.py
+```
+This will generate the file `customer_clusters.csv` inside the `data/` folder.
 
 ---
 
@@ -140,6 +145,7 @@ To launch Jupyter Notebook, run the following command:
 
 ```bash
 python -m notebook
+```
 
 ---
 
@@ -155,6 +161,7 @@ It is **highly recommended** to open and run:
 
 ```bash
 analysis.ipynb
+```
 
 ---
 
