@@ -1,4 +1,4 @@
-# Market Basket Analysis & Customer Segmentation in Online Retail
+# Market Basket & Customer Segmentation in Grocery Transactions
 
 **Course**: Advanced Data Mining  
 **Project Type**: Individual Mini-project 
